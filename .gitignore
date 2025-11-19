@@ -1,3 +1,54 @@
+# Node and Angular default ignores
+node_modules/
+/.pnp
+.pnp.js
+
+# build output
+/dist/
+/out-tsc/
+
+# Angular cache
+/.angular
+/.angular/cache
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files
+.env
+.env.*
+
+# OS files
+.DS_Store
+
+# IDEs
+/.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage
+/coverage/
+
+# Temporary files
+/tmp/
+/temp/
+/.cache/
+
+# API artifacts
+/api/node_modules/
+/api/api.log
+
+# Optional: ignore packaged lockfiles if you don't want them in repo
+# package-lock.json
+# yarn.lock
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
